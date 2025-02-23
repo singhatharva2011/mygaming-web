@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Gaming Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Upload</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="games">
+            <h2>Featured Games</h2>
+            <div id="game-list">
+                <!-- Game items will be added here by JavaScript -->
+            </div>
+        </section>
+        <section id="upload">
+            <h2>Upload Your Game</h2>
+            <form id="upload-form">
+                <label for="game-title">Game Title:</label>
+                <input type="text" id="game-title" name="game-title" placeholder="Enter game title" required>
+                <label for="game-file">Game File:</label>
+                <input type="file" id="game-file" name="game-file" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Gaming Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
